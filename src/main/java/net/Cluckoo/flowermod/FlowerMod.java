@@ -1,6 +1,7 @@
 package net.Cluckoo.flowermod;
 
 import com.mojang.logging.LogUtils;
+import net.Cluckoo.flowermod.block.ModBlocks;
 import net.Cluckoo.flowermod.item.ModCreativeModTabs;
 import net.Cluckoo.flowermod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -11,9 +12,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -34,6 +33,8 @@ public class FlowerMod {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

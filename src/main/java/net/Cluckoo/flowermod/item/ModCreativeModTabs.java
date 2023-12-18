@@ -1,6 +1,7 @@
 package net.Cluckoo.flowermod.item;
 
 import net.Cluckoo.flowermod.FlowerMod;
+import net.Cluckoo.flowermod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,9 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(ModItems.OOSQUAI.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.CUENDILLAR_BLOCK.get());
             })
             .build());
     public static void register(IEventBus eventBus) {

@@ -2,5 +2,10 @@
   "item.flowermod.sapphire": "Sapphire",
   "item.flowermod.raw_sapphire": "Raw sapphire",
   "item.flowermod.oosquai": "Oosquai",
+
+  "block.flowermod.sapphire_block": "Block of Sapphire",
+  "block.flowermod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.flowermod.cuendillar_block": "Block of Cuendillar",
+
   "creativetab.flower_tab": "Flowers"
 }

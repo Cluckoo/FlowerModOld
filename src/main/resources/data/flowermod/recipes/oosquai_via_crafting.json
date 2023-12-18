@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "S",
+    "W",
+    "G"
+  ],
+  "result": {
+    "item": "flowermod:oosquai"
+  }
+}
